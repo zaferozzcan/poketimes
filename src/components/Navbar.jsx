@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -7,15 +8,17 @@ function Navbar() {
         <a href="\" className="brand-logo">
           Poke'Times
         </a>
-        <ul class="right hide-on-med-and-down">
+        <ul className="right hide-on-med-and-down">
           <li>
-            <a href="\">Home</a>
+            <NavLink exact to="/">
+              Home
+            </NavLink>
           </li>
           <li>
-            <a href="\about">About</a>
+            <NavLink to="/about">About</NavLink>
           </li>
           <li>
-            <a href="\content">Content</a>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
         </ul>
       </div>

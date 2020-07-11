@@ -8,7 +8,7 @@ function Home() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
         aliquid cum consequatur culpa tenetur aut ut. Voluptate quae quis rem
         quia ut hic, dignissimos laborum accusamus, nam ducimus commodi
-        voluptates?
+        voluptates? Home
       </p>
     </div>
   );
