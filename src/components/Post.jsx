@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import { connect } from "react-redux";
 
 class Post extends Component {
@@ -16,6 +15,7 @@ class Post extends Component {
     return <div className="container">{post}</div>;
   }
 }
+
 const mapStateToProps = (state, ownProps) => {
   let id = ownProps.match.params.post_id;
   return {
